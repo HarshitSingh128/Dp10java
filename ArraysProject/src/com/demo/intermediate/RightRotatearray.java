@@ -5,12 +5,12 @@ import java.util.Arrays;
 public class RightRotatearray {
 	public static void rotateonce(int ar[]) {
 		int len=ar.length;
-		int lastE=ar[len-1];
+		int temp=ar[len-1];
 		//shifting 
 		for(int i=len-1;i>0;i--) {
 			ar[i]=ar[i-1];
 		}
-		ar[0]=lastE;
+		ar[0]=temp	;
 		
 	}
 	

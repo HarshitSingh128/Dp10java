@@ -14,7 +14,7 @@ public class Reversearray {
 	}
 	public static void reverseArrays(int []arr) {
 		int j=(arr.length-1);
-		for(int i=0;i<arr.length/2;i++) {
+		for(int i=0;i<arr.length;i++) {
 			int temp=arr[i];
 			arr[i]=arr[j];
 			arr[j]=temp;
@@ -34,7 +34,9 @@ public class Reversearray {
 		}
 		
 		System.out.println(Arrays.toString(arr));
+		
 		reverseArray(arr);
+		//reverseArrays(arr);
 		
 
 	}

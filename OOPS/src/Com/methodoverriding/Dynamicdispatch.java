@@ -6,7 +6,8 @@ class Bank{
 	}
 }
 class Sbibank extends Bank{
-	void dispaly() {
+	@Override
+	void display() {
 		double rate =10;
 		System.out.println("SBI bank rate is :"+rate);
 	}

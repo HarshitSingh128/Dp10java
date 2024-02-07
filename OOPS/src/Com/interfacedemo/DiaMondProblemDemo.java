@@ -17,7 +17,7 @@ public class DiaMondProblemDemo implements Student,Teacher {
 		System.out.println("School name:Hertage School");
 	}
 //complusory overrude default method causing ambiquity
-	public void display() {
+	public  void display() {
 		System.out.println("I am in School");
 		Student.super.display();
 		Teacher.super.display();

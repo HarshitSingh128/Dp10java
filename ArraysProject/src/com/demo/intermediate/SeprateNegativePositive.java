@@ -14,7 +14,7 @@ public class SeprateNegativePositive {
 				while(ar[left]>0 && left<right)
 					left++;
 				while(ar[right]<0 && left<right)
-					right++;
+					right--;
 				if(left<right)
 				{
 					int tmp= ar[left];
@@ -45,13 +45,13 @@ public class SeprateNegativePositive {
 		int arr[]= {3,4,-1,6,-7,8,-5,2,9};
 		System.out.println(Arrays.toString(arr));
 		
-//		shiftNegative(arr);
-//		
-//		System.out.println(Arrays.toString(arr));
+		shiftNegative(arr);
+		
+		//System.out.println(Arrays.toString(arr));
 		
 		shiftNegative2(arr);
 		
-		System.out.println(Arrays.toString(arr));
+		System.out.println("By for loop:"+Arrays.toString(arr));
 	
 	}
 

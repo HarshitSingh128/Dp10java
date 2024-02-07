@@ -3,18 +3,18 @@ package com.demo.frequency;
 public class FrequencyDemo {
 	static void findFrequency(int ar[]) {
 		int count;
-		boolean status;
+		boolean flag;
 		for(int i=0;i<ar.length;i++) {
 			count=1;
-			status=false;
+			flag=false;
 			//check if the element is new 
 			for(int j=i-1;j>=0;j--) {
 				if(ar[i]==ar[j]) {
-					status=true;
+					flag=true;
 					break;
 				}
 			}
-			if(status==false) {
+			if(flag==false) {
 				for(int k=i+1;k<ar.length;k++) {
 					if(ar[i]==ar[k])
 						count++;

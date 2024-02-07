@@ -30,7 +30,7 @@ class Soccer extends Game {
 		System.out.println("nobody is going parling zone");
 	}
 
-	void noofPlayers() {
+	void noofPlayer() {
 		System.out.println("there are 11 players in the game");
 	}
 
@@ -41,7 +41,7 @@ class Cricket extends Game {
 		System.out.println("nobody is going standing zone");
 	}
 
-	void noofPlayers() {
+	void noofPlayer() {
 		System.out.println("there are 11 players in the game");
 	}
 
