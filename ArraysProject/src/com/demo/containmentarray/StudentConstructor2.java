@@ -1,6 +1,20 @@
 package com.demo.containmentarray;
 
 public class StudentConstructor2 {
+	
+	static void countStudentCoursewise(Student st[],Course ct[] ) {
+		int count;
+		for(Course c:ct) {
+			count=0;
+			for(Student s:st) {
+				if(s.getCourse().equals(c));
+				{
+					count++;
+				}
+			}
+			System.out.println(c+" ->"+count);
+		}
+	}
 
 	public static void main(String[] args) {
 		Course ct[]=new Course[3];
@@ -28,6 +42,8 @@ public class StudentConstructor2 {
 		for(Student s:stud) {
 			System.out.println(s);
 		}
+		System.out.println("================================");
+		countStudentCoursewise(stud,ct);
 
 	}
 

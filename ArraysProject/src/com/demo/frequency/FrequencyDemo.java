@@ -16,8 +16,11 @@ public class FrequencyDemo {
 			}
 			if(flag==false) {
 				for(int k=i+1;k<ar.length;k++) {
-					if(ar[i]==ar[k])
+					if(ar[i]==ar[k]) {
 						count++;
+						
+					}
+					
 				}
 				//frequency
 				System.out.println(ar[i]+":" +"Frequency is: "+count);

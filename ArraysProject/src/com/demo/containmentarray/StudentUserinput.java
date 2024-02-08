@@ -3,19 +3,20 @@ package com.demo.containmentarray;
 import java.util.Scanner;
 
 public class StudentUserinput {
-	static Scanner sc=new Scanner(System.in);
+	static Scanner sc = new Scanner(System.in);
+
 	static void enterStudentDetails(Student s) {
 		System.out.println("Enter student id:");
 		s.setId(sc.nextInt());
 		System.out.println("Enter Student name:");
 		s.setSname(sc.next());
 		System.out.println("Enter marks of 3 subjects:");
-		double m[]=new double[3];
-		for(int i=0;i<m.length;i++) {
-			System.out.println("Subject"+(i+1)+":");
-			m[i]=sc.nextDouble();
+		double m[] = new double[3];
+		for (int i = 0; i < m.length; i++) {
+			System.out.println("Subject" + (i + 1) + ":");
+			m[i] = sc.nextDouble();
 		}
-//		s.setMarks(m);
+		s.setMarks(m);
 //		Course c=new Course();
 //		System.out.println("Enter course id:");
 //		c.setCid(sc.nextInt());
@@ -27,25 +28,23 @@ public class StudentUserinput {
 		s.getCourse().setCid(sc.nextInt());
 		System.out.println("Enter course name :");
 		s.getCourse().setCname(sc.next());
-		
 
-		
 	}
+
 	static void displayDetails(Student st[]) {
 		System.out.println("---------------------");
-		for(Student s:st) {
+		for (Student s : st) {
 			System.out.println(s);
 		}
 	}
 
 	public static void main(String[] args) {
-		Student stud[]=new Student[3];
-		for(int i=0;i<stud.length;i++) {
-			stud[i]=new Student();
+		Student stud[] = new Student[3];
+		for (int i = 0; i < stud.length; i++) {
+			stud[i] = new Student();
 			enterStudentDetails(stud[i]);
 		}
 		displayDetails(stud);
-		
 
 	}
 
