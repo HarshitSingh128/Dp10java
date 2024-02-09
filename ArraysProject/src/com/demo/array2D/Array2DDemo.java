@@ -7,6 +7,7 @@ package com.demo.array2D;
 public class Array2DDemo {
 
 	public static void main(String[] args) {
+		//declaration
 		int arr[][];
 		int rows=3;
 		int cols=3;

@@ -1,7 +1,7 @@
 package com.demo.array2D;
 
 import java.util.Scanner;
-
+//if rows and coloum are unequal
 public class JaggedArray {
 	static void displayMultiarray(int ar[][]) {
 		for(int i=0;i<ar.length;i++) {
@@ -27,9 +27,13 @@ public class JaggedArray {
 		for(int i=0;i<jarr1.length;i++) {
 			System.out.println("Enter values of row"+(i+1)+" ");
 			for(int j=0;j<jarr1[i].length;j++) {
+				jarr1[i][j]=sc.nextInt();
 				
 			}
+			System.out.println();
 		}
+		System.out.println("+++++++++++++++++++++++++++++++++++++");
+		displayMultiarray(jarr1);
 
 
 	}

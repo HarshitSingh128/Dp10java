@@ -16,7 +16,7 @@ public class Transpose2darray {
 	static void displayMultiarray(int ar[][]) {
 		for(int i=0;i<ar.length;i++) {
 			for(int j=0;j<ar.length;j++) {
-				System.out.println(ar[i][j]+" ");
+				System.out.print(ar[i][j]+" ");
 			}
 			System.out.println();
 		}
