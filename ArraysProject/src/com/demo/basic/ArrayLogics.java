@@ -27,13 +27,13 @@ public class ArrayLogics {
 	public static void main(String[] args) {
 		int arr[] = { 6, 4, 5, 7, 6, 4, 1, 0 };
 
-		if (searchElement(arr, 2)) {
+		if (searchElement(arr, 6)) {
 			System.out.println("Element found");
 		} else {
 			System.out.println("Element not found");
 		}
 		System.out.println("====");
-		searchOccurances(arr, 2);
+		searchOccurances(arr, 6);
 
 	}
 

@@ -45,7 +45,7 @@ public class SeprateNegativePositive {
 		int arr[]= {3,4,-1,6,-7,8,-5,2,9};
 		System.out.println(Arrays.toString(arr));
 		
-		shiftNegative(arr);
+		//shiftNegative(arr);
 		
 		//System.out.println(Arrays.toString(arr));
 		

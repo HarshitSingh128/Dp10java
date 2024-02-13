@@ -13,7 +13,8 @@ public class EvenOddTestArray {
 			if (ar[i] % 2 == 0) {
 				even[j++] = ar[i];
 
-			} else {
+			} else 
+			{
 				odd[k++] = ar[i];
 
 			}
