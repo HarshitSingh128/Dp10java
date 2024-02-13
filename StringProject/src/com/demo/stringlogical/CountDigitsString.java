@@ -9,7 +9,7 @@ public class CountDigitsString {
 				count++;
 			}
 		}
-		return count++;
+		return count;
 	}
 static int findcount2(String s) {
 	int count=0;

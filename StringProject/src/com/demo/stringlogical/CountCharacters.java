@@ -20,9 +20,9 @@ public class CountCharacters {
 		char ch[] = s.toCharArray();
 		for (char c : ch) {
 			// omit spaces and .
-			if (c == ' ' | c == '.')
+			if (c == ' ' || c == '.')
 				continue;
-			if (c == 'A' | c == 'E' | c == 'I' | c == 'O' | c == 'U') {
+			if (c == 'A' || c == 'E' || c == 'I' || c == 'O' | c == 'U') {
 				vcount++;
 			} else {
 				ccount++;

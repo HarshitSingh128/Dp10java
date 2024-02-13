@@ -41,7 +41,8 @@ public class Anagram {
 	static boolean checkAnagram2(String s1, String s2) {
 		if (s1.length() != s2.length()) {
 			return false;
-		} else {
+		}
+		else {
 			s1 = s1.toLowerCase();
 			// System.out.println(s1);
 			s2 = s2.toLowerCase();
@@ -62,8 +63,17 @@ public class Anagram {
 	}
 
 	public static void main(String[] args) {
-		String s1 = "Race";
-		String s2 = "race";
+		String str1 = "Race";
+		String str2 = "race";
+		
+		System.out.println(str1);
+		System.out.println(str2);
+		if(checkAnagram(str1,str2)) {
+			System.out.println("String are anagram");
+		}
+		else {
+			System.out.println("Strings are not anagram");
+		}
 
 	}
 
