@@ -9,6 +9,7 @@ public class SplitDemo {
 		String str="I like to learn java";
 		String s[]=str.split("\s");//str.split(" ");
 		System.out.println(Arrays.toString(s));
+		System.out.println(str);
 		
 	
 	}

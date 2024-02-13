@@ -8,13 +8,12 @@ public class StringBufferMethods {
 		sb.append("Programs");
 		sb.reverse();
 		System.out.println(sb);
+				
+		String s="java is fun";
+		StringBuilder sb1=new  StringBuilder(s);
+		sb1.reverse();
+		System.out.println(sb1);
 		
-//		
-//		String s="java is fun";
-//		StringBuilder sb1=new  StringBuilder(s);
-//		sb1.r;
-//		System.out.println(sb1);
-//		
 		sb.reverse();
 		System.out.println(sb);
 		
