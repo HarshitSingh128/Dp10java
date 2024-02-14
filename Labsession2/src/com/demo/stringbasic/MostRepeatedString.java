@@ -7,7 +7,7 @@ public class MostRepeatedString {
 		int count = 0;
 		boolean flag;
 		int max = 0;
-		String res = null;
+		String res = s[0];
 
 		for (int i = 0; i < s.length; i++) {
 			count = 1;
@@ -39,7 +39,7 @@ public class MostRepeatedString {
 	}
 
 	public static void main(String[] args) {
-		String s1 = "Java is fun it is a programming it is a very intersting";
+		String s1 = "I LIKE JAVA AND I LIKE PYTHON";
 		repeatedtest(s1);
 	}
 

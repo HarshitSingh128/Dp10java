@@ -1,11 +1,12 @@
 package com.demo.enumbasic;
-class CinstantDirec{
-	static final String NORTH="NORTH";
-	static final String SOUTH="SOUTH";
-	static final String EAST="EAST";
-	static final String WEST="WEST";
-	
-}
+//before come enum in java we can use enum variable like this
+//class CinstantDirec{
+//	static final String NORTH="NORTH";
+//	static final String SOUTH="SOUTH";
+//	static final String EAST="EAST";
+//	static final String WEST="WEST";
+//	
+//}
 public class Enumdemo {
 	public enum Direction{NORTH,EAST,WEST,SOUTH};
 

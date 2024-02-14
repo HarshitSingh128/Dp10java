@@ -29,12 +29,33 @@ public class ReverseStringTest {
 		System.out.println(String.join(" ", s));
 		
 	}
+	public static void startcapitalwithlogic(String st) {
+		String []s=st.split(" ");
+		String str="";
+		for(int i=0;i<s.length;i++) {
+			if(s[i].charAt(0)>='A'  && s[i].charAt(0)<='Z') {
+				str=str+s[i];
+			}
+			if(s[i].charAt(0)>='a'&& s[i].charAt(0)<='z') {
+				str=str+(char)(s[i].charAt(0)-32);
+			}
+			for(int j=1;j<s[i].length();j++) {
+				str=str+s[i].charAt(j);
+			}
+			s[i]=str;
+			str=str+" ";
+			
+		}
+		System.out.println(str);
+			
+	}
 
 	public static void main(String[] args) {
-		String str = "I Like java programming";
+		String str = "I like java programming";
 		System.out.println(str);
-		findReverse(str);
-		startcapitalleter(str);
+	//	findReverse(str);
+		//startcapitalleter(str);
+		startcapitalwithlogic(str);
 
 	}
 
