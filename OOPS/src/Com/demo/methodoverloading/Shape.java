@@ -31,7 +31,7 @@ public class Shape{
 	}
 	//we can overload main method because main method is static and loaded during compile time 
 	//But JVM always call main method with String array as arguments
-	//if we want ro call mother main method we can call it explicitly
+	//if we want t99o call mother main method we can call it explicitly
 	public static void main(int side) {
 		System.out.println("area of square :"+side*side);
 		

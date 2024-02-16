@@ -17,6 +17,7 @@ public class TestAccount {
 	Account a1=new Account();
 	Display(a1);
 	a1.Checkwithdraw(2000);
+	System.out.println(a1);
 	a1.checkDeposit(15000);
 	System.out.println(a1);
 	System.out.println();
