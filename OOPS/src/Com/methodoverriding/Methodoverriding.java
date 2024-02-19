@@ -14,22 +14,24 @@ class Employee extends Person{
 }
 class Trainee extends Person{
   void display(String name ) {
-	  //super.display("akash");
+	  super.display("akash");
 	  System.out.println("I am an Trainee:");
 	  System.out.println("Probation period:3 months");
   }
+ 
 }
 
 public class Methodoverriding {
 
 	public static void main(String[] args) {
-		Person p=new Person();
-		p.display("akash");
+		//Person p=new Person();
+	//p.display("akash");
 		Employee e=new Employee();
 		e.display("suret");
 		Trainee t=new Trainee();
 		t.display("harshit");
 		//p.super("hd";)
+		
 
 
 	}

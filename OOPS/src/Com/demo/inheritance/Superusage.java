@@ -26,6 +26,7 @@ class Child extends Parent {
 		System.out.println("In child class paraconstructor:");
 
 	}
+	
 }
 
 public class Superusage {

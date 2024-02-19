@@ -29,7 +29,7 @@ public class StringReverse {
 		String str="I Like java programming";
 		System.out.println(str);
 		
-		//findReverse(str);
+		findReverse(str);
 		System.out.println("====================================");
 		findReverseWordByWord(str);
 		

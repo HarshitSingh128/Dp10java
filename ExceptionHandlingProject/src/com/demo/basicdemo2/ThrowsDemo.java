@@ -11,7 +11,7 @@ public class ThrowsDemo {
 		} catch (Exception e) {
 			System.out.println(e);
 		}
-		throw new IOException("Invalid input");
+		//throw new IOException("Invalid input");
 
 	}
 

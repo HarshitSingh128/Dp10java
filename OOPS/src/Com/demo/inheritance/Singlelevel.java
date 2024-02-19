@@ -35,8 +35,8 @@ class Manager extends Employee{
 public class Singlelevel {
 public static void main(String[] args) {
 	Manager m1=new Manager(101,"sachin",56000,"Teamlead","hr");
-	System.out.println(m1.id+" "+m1.name+" "+m1.salary);
-	System.out.println(m1.role+  "   "+m1.wing);
+	//System.out.println(m1.id+" "+m1.name+" "+m1.salary);
+	//System.out.println(m1.role+  "   "+m1.wing);
 	System.out.println(m1);
 	Employee e1=new Employee(102,"anita",12000);
 	System.out.println(e1);
