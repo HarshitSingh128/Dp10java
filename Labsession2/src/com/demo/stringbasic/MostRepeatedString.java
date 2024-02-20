@@ -1,46 +1,63 @@
 package com.demo.stringbasic;
 
+import java.util.Arrays;
+
 //5. WAP to find the most repeated word in a string
 public class MostRepeatedString {
-	public static void repeatedtest(String st) {
-		String s[] = st.split(" ");
-		int count = 0;
-		boolean flag;
-		int max = 0;
-		String res = s[0];
-
-		for (int i = 0; i < s.length; i++) {
-			count = 1;
-			flag = false;
-			for (int j = i - i; j >= 0; j--) {
-				if (s[i].equalsIgnoreCase(s[j])) {
-					flag = true;
+	static void mostRepeatedWord(String str)
+	{
+		String s[]=str.split(" ");
+		//int count=0,
+		int i;
+		//String max1="";
+		boolean status;
+		int maxcount[]=new int [2];
+		int maxindex=0;
+		String max1[]=new String[2];
+		int index=0;
+		for(i=0;i<s.length;i++)
+		{
+			int count=1;
+			status=false;
+			
+			for(int j=i-1;j>=0;j--)
+			{
+				if(s[i].equalsIgnoreCase(s[j]))
+				{
+					status=true;
 					break;
 				}
 			}
-			if (flag == false) {
-				for (int k = i + 1; k < s.length; k++) {
-					if (s[i].equalsIgnoreCase(s[k])) {
+			if(status==false)
+			{
+				for(int k=i+1;k<s.length;k++)
+				{
+					if(s[i].equalsIgnoreCase(s[k]))
+					{
 						count++;
 					}
 				}
-				if (count > 1) {
-					res = s[i];
-					max = count;
-
+//				System.out.println(s[i]);
+//				System.out.println(count);
+				if(count>1)
+				{
+					maxcount[index++]=count;
+					max1[maxindex++]=s[i];
+					
 				}
-
+				
 			}
-
+				
+		}
+		System.out.println(Arrays.toString(max1));
 		}
 
-		System.out.println("Most reapeated word:" + res + " " + max);
-
-	}
 
 	public static void main(String[] args) {
-		String s1 = "I LIKE JAVA AND I LIKE PYTHON";
-		repeatedtest(s1);
+		String st="I like java and I like python";
+		System.out.println(st);
+		mostRepeatedWord(st);
+
 	}
 
 }

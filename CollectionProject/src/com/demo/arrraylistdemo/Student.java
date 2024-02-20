@@ -48,7 +48,7 @@ public class Student implements Comparable<Student> {
 
 	@Override
 	public int compareTo(Student s) {
-		//we have to impelments Comparable if we want compair the given value but in case of String it is not madnatory to impements Comparable  
+		//we have to implements Comparable if we want compare the given value but in case of String it is not mandatory to implements Comparable  
 		// on the basis of id at particular time one only compareTo operation is perform
 //		if(this.studid==s.studid)
 //			return 0;
@@ -57,7 +57,7 @@ public class Student implements Comparable<Student> {
 //		else 
 //			return -1;
 
-//		//*****************************
+//		//*****************************on the basis of marks will be compare 
 //		if(this.studmarks==s.studmarks) 
 //			return 0;
 //		else if(this.studmarks<s.studmarks)
@@ -65,7 +65,7 @@ public class Student implements Comparable<Student> {
 //		else 
 //			return 1;
 		// *****************************
-		// return this.studname.compareTo(s.studname);//sort lexographically
+		// return this.studname.compareTo(s.studname);//sort lexographically because we are using compareTo method 
 		if (this.studmarks == s.studmarks)
 			return this.studname.compareTo(s.studname);
 		else if (this.studmarks > s.studmarks)
