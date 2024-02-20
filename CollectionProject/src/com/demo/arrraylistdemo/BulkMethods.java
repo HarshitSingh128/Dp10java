@@ -33,6 +33,14 @@ public class BulkMethods {
 		
 		System.out.println(al);
 		System.out.println(al3);
+
+		System.out.println(al);
+        System.out.println(al3);
+        //al.removeAll(al3); // remove all elements which matches al3 and keeps rest
+        
+        al.retainAll(al3);// keeps only those elements which matches al3 and removes rest
+        
+        System.out.println(al);
 	}
 
 }
