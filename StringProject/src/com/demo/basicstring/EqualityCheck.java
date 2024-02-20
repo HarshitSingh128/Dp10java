@@ -1,4 +1,4 @@
-package com.dmo.basicstring;
+package com.demo.basicstring;
 
 public class EqualityCheck {
 //== refers to reference of object
