@@ -5,6 +5,7 @@ import java.util.List;
 
 public class BulkMethods {
 	public static void main(String[] args) {
+		
 		List<String> al=new ArrayList<>();
 		al.add("Shreyash");
 		al.add("Akshata");
