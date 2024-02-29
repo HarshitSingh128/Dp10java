@@ -7,7 +7,7 @@ public class Movie {
 	private Character c;
 	public Movie() {
 		super();
-		// TODO Auto-generated constructor stub
+		
 	}
 	public Movie(int movieId, String movieName, String movieRating, Character c) {
 		super();
