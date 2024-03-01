@@ -30,6 +30,20 @@ public class SecondHighest {
 		return shighest;
 		
 	}
+	public static int findsecondLowest(int ar[]) {
+		int lowest=Integer.MAX_VALUE;
+		int secondLowest=Integer.MAX_VALUE;
+		for(int i=0;i<ar.length;i++) {
+			if(ar[i]<lowest) {
+				secondLowest=lowest;
+				lowest=ar[i];
+			}
+			else if(ar[i]<secondLowest) {
+				secondLowest=ar[i];
+			}
+		}
+		return secondLowest;
+	}
 
 	public static void main(String[] args) {
 		int arr[]= {-2,5,8,7,6};
@@ -37,6 +51,10 @@ public class SecondHighest {
 		int sh=findSecondHighest(arr);
 		
 		System.out.println("Second highest is:"+sh);
+		System.out.println("--------------------");
+		
+	int sh1=findsecondLowest(arr);
+	System.out.println("Second Lowest is:"+sh1);
 	
 
 	}

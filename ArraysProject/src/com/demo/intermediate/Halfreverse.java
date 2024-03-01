@@ -4,8 +4,8 @@ import java.util.Arrays;
 
 public class Halfreverse {
 	public static void reversetest(int a[]) {
-		int arr1[]=new int [8];
-		int index=0;
+		//int arr1[]=new int [8];
+		//int index=0;
 	
 		for( int i=1;i<a.length/2;i++) {
 			for(int j=i+1;j<a.length/2;j++) {
