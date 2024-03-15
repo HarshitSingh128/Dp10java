@@ -7,7 +7,7 @@ class Parent1{
 	}
 }
 //child class:overriding :can throw unchecked exception 
-                          //sub class of unchecked exception ,any other exception
+//sub class of unchecked exception ,any other exception
 //it cannot throw:checked exception
 class Child1 extends Parent1
 {

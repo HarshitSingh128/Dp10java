@@ -1,11 +1,12 @@
 package com.demo.basicdemo2;
 
+import java.io.IOException;
 import java.util.Scanner;
 
 
 
 public class ThrowDemo {
-	static void entermarks() {
+	static void entermarks()  {
 		Scanner sc=new Scanner (System.in);
 		System.out.println("enter name:");
 		String name=sc.next();

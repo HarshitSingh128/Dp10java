@@ -36,12 +36,41 @@ public class IntegerInString {
 		}
 		System.out.println("Average is :"+sum/count);
 	}
+	static void find(String s) {
+		//String st[]=s.split(" ");
+		int sum=0;
+		char ch[]=s.toCharArray();
+		for(int i=0;i<s.length();i++) {
+			if(Character.isDigit(ch[i])) {
+				int x=Character.getNumericValue(ch[i]);
+				 sum=sum+x;	
+				
+			}
+		}
+		System.out.println(sum);
+	}
+	static void word(String s) {
+		String str[]=s.split(" ");
+		String rvst="";
+		for(int i=0;i<str.length;i++ ) {
+			for(int j=str[i].length()-1;j>=0;j--) {
+				rvst=rvst+str[i].charAt(j);
+			}
+			rvst=rvst+" ";
+		}
+		
+		System.out.println(rvst);
+		
+	}
 
 	public static void main(String[] args) {
 		String s="Sachin scores 789 runs in test match";
-		findSum(s);
-		findsumlogic(s);
-		findaverage(s);
+		String str="I Like java programming";
+		word(str);
+		//find(s);
+//		findSum(s);
+//		findsumlogic(s);
+//		findaverage(s);
 	}
 
 }

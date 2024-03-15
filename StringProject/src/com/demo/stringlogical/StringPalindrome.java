@@ -16,7 +16,7 @@ public class StringPalindrome {
 			return false;
 	}
 static boolean checkPalindrome2(String s) {
-	//withount temporary String
+	//without temporary String
 	s=s.toLowerCase();
 	for(int i=0,j=s.length()-1;i<s.length()/2;i++,j--) {
 		if(s.charAt(i)!=s.charAt(j)) {

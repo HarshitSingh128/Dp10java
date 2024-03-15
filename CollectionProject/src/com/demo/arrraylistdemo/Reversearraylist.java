@@ -3,7 +3,7 @@ package com.demo.arrraylistdemo;
 import java.util.ArrayList;
 
 public class Reversearraylist {
-	int index;
+
 	static void reversetest(ArrayList<String> al) {
 		for(int i=0,j=al.size()-1;i<al.size()/2;i++,j--) {
 

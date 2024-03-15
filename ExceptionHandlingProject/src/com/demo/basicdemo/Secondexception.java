@@ -2,6 +2,7 @@ package com.demo.basicdemo;
 
 public class Secondexception {
 
+	
 	public static void main(String[] args) {
 		try {
 			String s = null;

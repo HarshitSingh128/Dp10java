@@ -27,6 +27,7 @@ public class StringReverse {
 
 	public static void main(String[] args) {
 		String str="I Like java programming";
+	//String s1="malayalam";
 		System.out.println(str);
 		
 		findReverse(str);

@@ -63,7 +63,7 @@ class MovieDemo implements MovieInterface {
 		ListIterator<Movie> ltr = a1.listIterator();
 		while (ltr.hasNext()) {
 			Movie m = ltr.next();
-			if (a1.MovieId == id) {
+			if (m.getMovieId() == id) {
 				System.out.println("Enter the name of Movie you want to update:");
 				name = sc.next();
 				ltr.set(new Movie(id, name, ratings, null));
@@ -87,7 +87,7 @@ class MovieDemo implements MovieInterface {
 		Iterator<Movie> itr = a1.iterator();
 		while (itr.hasNext()) {
 			Movie m = itr.next();
-			if (a1.MovieId == id) {
+			if (m.getMovieId()== id) {
 				itr.remove();
 				flag = true;
 			}
@@ -109,7 +109,7 @@ class MovieDemo implements MovieInterface {
 		Iterator<Movie> itr = a1.iterator();
 		while (itr.hasNext()) {
 			Movie m = itr.next();
-			if (a1.MovieId == id) {
+			if (m.getMovieId() == id) {
 				System.out.println(m);
 				flag = true;
 			}

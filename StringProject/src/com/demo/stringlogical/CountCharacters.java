@@ -13,9 +13,9 @@ public class CountCharacters {
 		return count;
 	}
 
-	static void findVowelsConsonents(String s) {
+	static void findVowelsConsonants(String s) {
 		int vcount = 0;// for vowel
-		int ccount = 0;//for consonents
+		int ccount = 0;//for consonants
 		s = s.toUpperCase();
 		char ch[] = s.toCharArray();
 		for (char c : ch) {
@@ -40,7 +40,7 @@ public class CountCharacters {
 				
 				//System.out.println(str);
 				System.out.println(findnochars(str));
-				 findVowelsConsonents(str);
+				 findVowelsConsonants(str);
 		
 
 	}

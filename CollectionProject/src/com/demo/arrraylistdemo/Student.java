@@ -68,7 +68,7 @@ public class Student implements Comparable<Student> {
 		// return this.studname.compareTo(s.studname);//sort lexographically because we are using compareTo method 
 		if (this.studmarks == s.studmarks)
 			return this.studname.compareTo(s.studname);
-		else if (this.studmarks > s.studmarks)
+		else if (this.studmarks < s.studmarks)
 			return -1;
 		else
 			return 1;

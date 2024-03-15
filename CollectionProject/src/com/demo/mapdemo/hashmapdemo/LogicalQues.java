@@ -1,5 +1,5 @@
 package com.demo.mapdemo.hashmapdemo;
-
+//frequency type
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
@@ -23,7 +23,7 @@ public class LogicalQues {
 		    }
 		}
 		
-		for(Map.Entry<String, Integer> en: hm.entrySet())
+		for(Map.Entry<String, Integer> en: hm.entrySet())   
 		{
 			System.out.println(en.getKey()+":"+en.getValue());
 		}

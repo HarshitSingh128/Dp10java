@@ -31,7 +31,7 @@ public class ItemsupplierHashMap {
 
 	public static void main(String[] args) {
 		ArrayList<Item> al = new ArrayList<>();
-		al.add(new Item(101, "Rice", 30.0, new Supplier(1, "Monice", 985544344)));
+		al.add(new Item(101, "Rice", 30.0, new Supplier(1, "Monica", 985544344)));
 		al.add(new Item(102, "Sugar", 25.0, new Supplier(2, "Harshit", 908723725)));
 		al.add(new Item(103, "Flour", 20.0, new Supplier(1, "Monica", 985544344)));
 		al.add(new Item(104, "Juice", 50.0, new Supplier(3, "Pradnya", 862754723)));
