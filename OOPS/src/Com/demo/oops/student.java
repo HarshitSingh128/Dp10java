@@ -1,6 +1,6 @@
 package Com.demo.oops;
 //state -what object have-variable
-//rollno name
+//Rollno -name
 //behavior-what object-method
 //displayInfo()
 

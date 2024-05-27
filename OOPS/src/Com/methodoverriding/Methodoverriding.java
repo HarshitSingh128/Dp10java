@@ -26,8 +26,8 @@ public class Methodoverriding {
 	public static void main(String[] args) {
 		//Person p=new Person();
 	//p.display("akash");
-		Employee e=new Employee();
-		e.display("suret");
+		//Employee e=new Employee();
+		//e.display("suret");
 		Trainee t=new Trainee();
 		t.display("harshit");
 		//p.super("hd";)

@@ -1,3 +1,4 @@
+
 package Com.demo.inheritance;
 
 public class AccessDemo {

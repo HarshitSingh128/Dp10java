@@ -3,12 +3,12 @@ package com.demo.stringlogical;
 public class StringPalindrome {
 	static boolean checkPalindrome(String s) {
 		//using temporary string 
-		System.out.println(s);
+		//System.out.println(s);
 		String rev="";
 		for(int i=s.length()-1;i>=0;i--) {
 			rev=rev+s.charAt(i);
 		}
-		System.out.println(rev);
+		//System.out.println(rev);
 		if(s.equalsIgnoreCase(rev)) {
 			return true;
 		}
@@ -27,13 +27,13 @@ static boolean checkPalindrome2(String s) {
 }
 	public static void main(String[] args) {
 	String s1="Malayalam";
-	if(checkPalindrome2(s1)) {
-		System.out.println(s1+" is  palindrome");
-	}
-	else 
-	{
-		System.out.println(s1+"is not palindrome");
-	}
+//	if(checkPalindrome2(s1)) {
+//		System.out.println(s1+" is  palindrome");
+//	}
+//	else 
+//	{
+//		System.out.println(s1+"is not palindrome");
+//	}
 	if(checkPalindrome(s1)) {
 		System.out.println(s1+" is  palindrome");
 	}

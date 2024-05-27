@@ -1,9 +1,12 @@
 package com.demo.stringlogical;
 
+
+
 public class CountCharacters {
 	static int findnochars(String s) {
 		int count = 0;
 		char ch[] = s.toCharArray();
+
 //		for (char c : ch) {
 //			count++;
 //		}

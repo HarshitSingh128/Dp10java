@@ -46,7 +46,7 @@ public class Account {
 	public void checkDeposit(double deposit) {
 	this.deposit=deposit;
 	double balance=amount;
-	deposit=deposit+amount;
+	deposit=deposit+balance;
 	
 	}
 	public String toString() {

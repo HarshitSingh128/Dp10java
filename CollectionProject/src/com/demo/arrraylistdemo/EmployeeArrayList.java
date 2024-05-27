@@ -19,9 +19,9 @@ public class EmployeeArrayList {
 			System.out.println(s);
 		}
 		System.out.println("-----------------");
-		//Collections.sort(elist, new EmployeeSalaryComparator());
+		Collections.sort(elist, new EmployeeSalaryComparator());
 		//Collections.sort(elist, Collections.reverseOrder(new EmployeeSalaryComparator()));//it is basically doing decreasing order of sorting
-		Collections.sort(elist, new EmployeeIdComparator());
+		//Collections.sort(elist, new EmployeeIdComparator());
 		//Collections.sort(elist, new EmployeenameComparator());
 		for(Employee s:elist) {
 			System.out.println(s);

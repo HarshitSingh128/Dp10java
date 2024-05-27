@@ -1,4 +1,4 @@
-package com.demo.linkedhashmapdemo;
+             package com.demo.linkedhashmapdemo;
 
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
@@ -16,7 +16,7 @@ public class Linkedhashmapdemo {
 		lhm.put("Mandar", 84.1);
 		lhm.put("Gunjan", 81.2);
 		
-		for(Entry<String,Double> e:lhm.entrySet()) {
+		for(  Entry<String,Double> e:lhm.entrySet()) {
 			System.out.println(e.getKey()+"->"+e.getValue());
 		}
 		System.out.println("--------------------------");
